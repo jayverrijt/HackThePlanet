@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  background-color: transparent;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+}
+.container .taskbar {
+  height: 8%;
+  width: 100%;
+  background-color: #000b2e;
+  border: solid 0;
+  bottom: 0;
+  position: absolute;
+}
+.container .taskbar .startBtn {
+  height: 100%;
+  width: 5%;
+  border: solid 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.container .taskbar .startBtn img {
+  height: 100%;
+  width: 100%;
+}
+.container .mainScreenContainer {
+  height: 92%;
+  width: 100%;
+  background-image: url("../images/win10defaultWall.png");
+  background-repeat: no-repeat;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-content: center;
+}
+.container .mainScreenContainer .commandFieldContainer {
+  height: 45%;
+  width: 50%;
+  top: 25%;
+  background-color: black;
+  position: absolute;
+  border: solid 0;
+}
+.container .mainScreenContainer .commandFieldContainer .cmdFieldName {
+  height: 5%;
+  width: 100%;
+  border: solid 0;
+  background-color: white;
+}
+.container .mainScreenContainer .commandFieldContainer .cmdField {
+  height: 95%;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  background-color: black;
+  border: solid 0;
+}
+.container .mainScreenContainer .commandFieldContainer .cmdField p {
+  color: green;
+}
+
+/*# sourceMappingURL=global.css.map */

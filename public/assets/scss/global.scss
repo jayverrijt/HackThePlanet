@@ -1,6 +1,7 @@
 * {
     margin: 0;
     background-color: transparent;
+    overflow: hidden;
 }
 
 .container {
@@ -58,6 +59,19 @@
                 background-color: black;
                 border: solid 0;
                 p {
+                    color: green;
+                }
+                section {
+                    display: inline-block;
+                    width: 100%;
+                }
+                input {
+                    left: 5%;
+                    display: inline-block;
+                    position: absolute;
+                    padding: 0;
+                    border: none;
+                    text-align: left;
                     color: green;
                 }
             }

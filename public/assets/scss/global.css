@@ -1,6 +1,7 @@
 * {
   margin: 0;
   background-color: transparent;
+  overflow: hidden;
 }
 
 .container {
@@ -62,6 +63,19 @@
   border: solid 0;
 }
 .container .mainScreenContainer .commandFieldContainer .cmdField p {
+  color: green;
+}
+.container .mainScreenContainer .commandFieldContainer .cmdField section {
+  display: inline-block;
+  width: 100%;
+}
+.container .mainScreenContainer .commandFieldContainer .cmdField input {
+  left: 5%;
+  display: inline-block;
+  position: absolute;
+  padding: 0;
+  border: none;
+  text-align: left;
   color: green;
 }
 

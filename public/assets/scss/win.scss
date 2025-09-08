@@ -1,0 +1,44 @@
+body {
+    background-color: #2067B2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sadFace {
+    font-size: 12rem;
+    color: white;
+    margin-top: 5rem;
+    font-weight: bold;
+    margin-left: 5rem;
+}
+.congratsText {
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    color: white;
+    font-weight: bold;
+}
+.replayText {
+    margin-left: 5rem;
+    position: absolute;
+    bottom: 18rem;
+    font-weight: bold;
+    color: white;
+    a {
+       color: blue;
+    }
+}
+img {
+    height: 20%;
+    width: auto;
+    position: absolute;
+    bottom: 5%;
+    left: 5rem;
+}
+.errorCode {
+    margin-left: 20rem;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    bottom: 14%;
+    position: absolute;
+}

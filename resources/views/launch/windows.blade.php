@@ -58,9 +58,9 @@
                     @csrf
                     <img src="{{asset('assets/images/wincmd.png')}}">
                     <p>Windows CMD</p>
-                    @if(session('cmd') == '1')
-                        <buttton type="submit" name="shell" value="cmd">Switch</buttton>
-                    @endif
+                        @if(session('cmd') == '1')
+                        <button type="submit" name="shell" value="pwsh">Switch</button>
+                        @endif
                     </form>
                 </div>
                 <div class="storeitem pwsh">
